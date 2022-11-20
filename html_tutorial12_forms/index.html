@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial 12</title>
+</head>
+<body>
+    <!--Forms-->
+    <!-- The form tag is used to create an HTML form for user input -->
+
+    <!-- The action attribute specifies where to send the form-data when a form is submitted -->
+    <!-- The method attribute specifies how to send form-data (the form-data can be sent as URL variables or as HTTP post transaction) -->
+    <!-- The target attribute specifies where to display the response after submitting the form -->
+    <!-- <form action="action_page.php" method="GET">-->
+    <form>
+        <div>
+            <!-- The label tag defines a label for an <input> element -->
+            <!-- The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together -->
+            <label for="fname">First name:</label>
+            <!-- The input tag is used to create interactive controls for web-based forms in order to accept data from the user -->
+            <!-- The type attribute specifies the type of <input> element to display -->
+            <!-- The name attribute specifies the name of an <input> element -->
+            <!-- The id attribute specifies a unique id for an <input> element -->
+            <!-- The placeholder attribute specifies a short hint that describes the expected value of an <input> element -->
+            <input type="text" id="fname" name="fname" placeholder="Test">
+        </div>
+        <br>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Test">
+        </div>
+        <br>
+
+        <!-- Password form-->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" maxlength="12" required>
+        </div>
+        <br>
+
+        <!-- Email form-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@email.com">
+        </div>
+        <br>
+
+        <!-- Phone number form-->
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        </div>
+        <br>
+
+        <!-- Date form-->
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <br>
+
+        <!-- Time form-->
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+        </div>
+        <br>
+
+        <!-- Number form-->
+        <div>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" min="1" max="10">
+        </div>
+        <br>
+
+        <!-- Range form-->
+        <div>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="1" max="10">
+        </div>
+        <br>
+
+        <!-- Color form-->
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+        <br>
+
+        <!-- Checkbox form-->
+        <div>
+            <label for="Yes">Yes</label>
+            <input type="checkbox" id="Yes" name="checkbox" value="Yes">
+            <label for="No">No</label>
+            <input type="checkbox" id="No" name="checkbox" value="No">
+        </div>
+        <br>
+
+        <!-- Radio form-->
+        <div>
+            <label for="radio">Radio Buttons: </label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="radio" value="Mr.">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." name="radio" value="Mrs.">
+            <label for="phD.">PhD.</label>
+            <input type="radio" id="phD." name="radio" value="phD.">
+        </div>
+        <br>
+
+        <!-- Textarea form-->
+        <div>
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+        </div>
+        <br>
+
+        <!-- Select form-->
+        <div>
+            <label for="Cars">Select:</label>
+            <select id="Cars" name="Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <br>
+
+         <!-- Reset form-->
+         <div>
+            <!-- The type attribute specifies the type of <input> element to display -->
+            <input type="reset">
+        </div>
+        <br>
+
+        <!-- Submit form-->
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+
+        <!-- Button form-->
+        <div>
+            <input type="button" value="Click Me">
+        </div>
+        <br>
+
+        <!-- Image form-->
+        <div>
+            <input type="image" src="img_avatar.png" alt="Submit" width="48" height="48">
+        </div>
+        <br>
+
+        <!-- File form-->
+        <div>
+            <input type="file" id="myFile" name="filename">
+        </div>
+        <br>
+
+        <!-- Hidden form-->
+        <div>
+            <input type="hidden" id="hidden" name="hidden" value="Hidden">
+        </div>
+        <br>
+
+        <!-- Search form-->
+        <div>
+            <input type="search" id="search" name="search" placeholder="Search..">
+        </div>
+        <br>
+
+        <!-- URL form-->
+        <div>
+            <input type="url" id="url" name="url" placeholder="https://www.google.com">
+        </div>
+        <br>
+
+        <!-- Week form-->
+        <div>
+            <input type="week" id="week" name="week">
+        </div>
+        <br>
+
+        <!-- Month form-->
+        <div>
+            <input type="month" id="month" name="month">
+        </div>
+        <br>
+
+        <!-- Datetime-local form-->
+        <div>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+        </div>
+        <br>
+
+        <!-- Output form-->
+        <div>
+            <output for="fname" name="output">Output</output>
+        </div>
+        <br>
+
+        <!-- Progress form-->
+        <div>
+            <progress value="50" max="100"></progress>
+        </div>
+        <br>
+
+        <!-- Meter form-->
+        <div>
+            <meter value="2" min="0" max="10">2 out of 10</meter>
+        </div>
+        <br>
+
+        <!-- Fieldset form-->
+        <div>
+            <fieldset>
+                <legend>Personalia:</legend>
+                Name: <input type="text"><br>
+                E-mail: <input type="text"><br>
+                Date of birth: <input type="text">
+            </fieldset>
+        </div>
+        <br>
+
+        <!-- Details form-->
+        <div>
+            <details>
+                <summary>Details</summary>
+                <p>Some text..</p>
+            </details>
+        </div>
+        <br>
+
+        <!-- Dialog form-->
+        <div>
+            <dialog open>Dialog</dialog>
+        </div>
+        <br>
+
+        <!-- Content form-->
+        <div>
+            <content>Content</content>
+        </div>
+        <br>
+
+        <!-- Slot form-->
+        <div>
+            <slot>Slot</slot>
+        </div>
+        <br>
+
+        <!-- Template form-->
+        <div>
+            <template>Template</template>
+        </div>
+        <br>
+
+        <!-- Canvas form-->
+        <div>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+        </div>
+        <br>
+
+        <!-- SVG form-->
+        <div>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
+        </div>
+        <br>
+
+        <!-- Math form-->
+        <div>
+            <math>
+                <mrow>
+                    <mi>x</mi>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow>
+                            <mo>-</mo>
+                            <mi>b</mi>
+                            <mo>&PlusMinus;</mo>
+                            <msqrt>
+                                <msup>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>-</mo>
+                                <mn>4</mn>
+                                <mi>a</mi>
+                                <mi>c</mi>
+                            </msqrt>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                            <mi>a</mi>
+                        </mrow>
+                    </mfrac>
+                </mrow>
+            </math>
+        </div>
+        <br>
+
+    </form>
+</html>
