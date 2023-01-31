@@ -17,6 +17,6 @@
 
 >if you have any questions about the codes or any difficulties you encountered. Visit Bro code on the lower description.
 
->Thanks also to his youtube video because I learned for such a short time about html.
+>Thanks also to [Bro Code](https://www.youtube.com/watch?v=HD13eq_Pmp8) youtube video because I learned for such a short time about html.
 
-[Bro Code] (https://www.youtube.com/watch?v=HD13eq_Pmp8)
+
